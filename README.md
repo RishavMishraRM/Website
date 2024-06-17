@@ -1,3 +1,3 @@
 # Website
 
-sample web
+sample webtech
