@@ -5,4 +5,12 @@ html, body{
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color:#222;
+
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-brand img{
+  width: 150px;
+  height: 70px;
 }
