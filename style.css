@@ -124,3 +124,12 @@ hr.light {
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
