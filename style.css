@@ -105,3 +105,11 @@ html, body{
 .fa-youtube {
   color: #bb0000;
 }
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
