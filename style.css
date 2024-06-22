@@ -133,3 +133,8 @@ hr.light-100 {
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
+}
+.footer-image img{
+  width: 150px;
+  height: 60px;
+}
