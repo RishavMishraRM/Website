@@ -1,5 +1,3 @@
 # Website
 
 edutechdata.com
-
-data
