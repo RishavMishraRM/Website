@@ -1,3 +1,0 @@
-# Website
-
-edutechdata.com

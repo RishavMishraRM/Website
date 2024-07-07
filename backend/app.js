@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+require("dotenv").config();
+require("./conn/conn");
 
 
 // to open app.js in browser
@@ -8,7 +10,7 @@ const app = express();
 //});
 
  //creating port
- app.listen(1000, () => {
-    console.log('Server Started');
+ app.listen(process.env.PORT, () => {
+    console.log(`Server Started at port ${process.env.PORT}`);
  });
 
