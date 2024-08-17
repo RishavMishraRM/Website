@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
+app.use(express.json());
 require("dotenv").config();
 require("./conn/conn");
+const user = require("./routes/user");
 
 
-// to open app.js in browser
-//app.get("/", (req, res) => {
-//    res.send("Hello from backend side");
-//});
+//routes
+app.use("/api/v1", user);
 
  //creating port
  app.listen(process.env.PORT, () => {
